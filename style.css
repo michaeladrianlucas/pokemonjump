@@ -18,7 +18,7 @@ body{
 }
 /*Background image styling*/
 .container{
-    background-image: url(./images/cover.png);
+    background-image: url(cover.jpg);
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -48,12 +48,12 @@ body{
 }
 /*Obstacle image styling and postioning*/
 .obstacle{
-    background-image: url(./images/obstacle.png);
+    background-image: url(squee-latios-01.png);
     background-size: cover;
-    width:154px;
-    height: 117px;
+    width:180px;
+    height: 180px;
     position:absolute;
-    bottom:0px;
+    bottom:40px;
     right:120px;
 }
 /*Applying aniamation to the obstacle so that it can move towards left*/
@@ -70,12 +70,12 @@ body{
 }
 /*Dragon's styling*/
 .dragon{
-    background-image: url(./images/dragon.png);
+    background-image: url(squee-latias-01.png);
     background-size: cover;
-    width: 194px;
-    height: 101px;
+    width: 180px;
+    height: 180px;
     position:absolute;
-    bottom:0px;
+    bottom:50px;
     left:90px;
 }
 /*Applying animation to the dragon so that it can save himself by jumping up*/
@@ -84,19 +84,19 @@ body{
 }
 @keyframes ani{
     0%{
-        bottom:0px;
+        bottom:50px;
     }
     25%{
-        bottom:150px;
+        bottom:200px;
     }
     50%{
-        bottom:300px;
+        bottom:350px;
     }
     75%{
-        bottom:211px;
+        bottom:261px;
     }
     100%{
-        bottom:0px;
+        bottom:50px;
     }
 }
 /*gameover styling and positioning*/
